@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F3B728A2486CFEC002DE897 /* boulder.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F3B72882486CFA0002DE897 /* boulder.png */; };
-		1FBB79162486EE73003244EF /* Flintstone.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FBB79152486EE68003244EF /* Flintstone.png */; };
+		1FBB791924871ECC003244EF /* Flintstone.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FBB791724871EB9003244EF /* Flintstone.png */; };
+		1FBB791A24871ED0003244EF /* boulder.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FBB791824871EBE003244EF /* boulder.png */; };
 		DBDF1B532323DE3F007CECB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B522323DE3F007CECB1 /* main.cpp */; };
 		DBDF1B5E2323DE8D007CECB1 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B5D2323DE8D007CECB1 /* ShaderProgram.cpp */; };
 		DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBDF1B5C2323DE8D007CECB1 /* shaders */; };
@@ -27,16 +27,16 @@
 			dstSubfolderSpec = 6;
 			files = (
 				DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */,
-				1FBB79162486EE73003244EF /* Flintstone.png in CopyFiles */,
-				1F3B728A2486CFEC002DE897 /* boulder.png in CopyFiles */,
+				1FBB791924871ECC003244EF /* Flintstone.png in CopyFiles */,
+				1FBB791A24871ED0003244EF /* boulder.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F3B72882486CFA0002DE897 /* boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulder.png; sourceTree = "<group>"; };
-		1FBB79152486EE68003244EF /* Flintstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flintstone.png; path = ../../../../../Desktop/Flintstone.png; sourceTree = "<group>"; };
+		1FBB791724871EB9003244EF /* Flintstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flintstone.png; sourceTree = "<group>"; };
+		1FBB791824871EBE003244EF /* boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulder.png; sourceTree = "<group>"; };
 		DBDF1B4F2323DE3F007CECB1 /* SDLProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDF1B522323DE3F007CECB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DBDF1B592323DE8D007CECB1 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 		DBDF1B512323DE3F007CECB1 /* SDLProject */ = {
 			isa = PBXGroup;
 			children = (
-				1FBB79152486EE68003244EF /* Flintstone.png */,
-				1F3B72882486CFA0002DE897 /* boulder.png */,
+				1FBB791724871EB9003244EF /* Flintstone.png */,
+				1FBB791824871EBE003244EF /* boulder.png */,
 				DBDF1B5B2323DE8D007CECB1 /* glm */,
 				DBDF1B5D2323DE8D007CECB1 /* ShaderProgram.cpp */,
 				DBDF1B592323DE8D007CECB1 /* ShaderProgram.h */,
@@ -145,13 +145,12 @@
 					};
 				};
 			};
-			buildConfigurationList = DBDF1B4A2323DE3F007CECB1 /* Build configuration list for PBXProject "project1" */;
+			buildConfigurationList = DBDF1B4A2323DE3F007CECB1 /* Build configuration list for PBXProject "SDLProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = DBDF1B462323DE3F007CECB1;
 			productRefGroup = DBDF1B502323DE3F007CECB1 /* Products */;
@@ -324,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DBDF1B4A2323DE3F007CECB1 /* Build configuration list for PBXProject "project1" */ = {
+		DBDF1B4A2323DE3F007CECB1 /* Build configuration list for PBXProject "SDLProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DBDF1B542323DE3F007CECB1 /* Debug */,
