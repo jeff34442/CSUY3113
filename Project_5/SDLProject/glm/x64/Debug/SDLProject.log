@@ -1,0 +1,5 @@
+﻿  Entity.cpp
+  main.cpp
+  ShaderProgram.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'glew32.lib'
